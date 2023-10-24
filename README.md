@@ -20,6 +20,9 @@ The Enhanced Nmap Security Toolkit is a powerful and versatile penetration testi
 4. **Command Injection Testing:**
    - Command injection vulnerabilities can lead to serious security breaches, and this module specializes in identifying such weaknesses in target systems. It performs in-depth testing to assess the ability of an attacker to execute arbitrary commands on the target host, helping you identify and patch these critical issues.
 
-The Enhanced Nmap Security Toolkit is designed for security professionals, penetration testers, and system administrators who are committed to securing their networks and web applications. By incorporating these advanced modules into your testing regimen, you can better expose vulnerabilities and ensure the highest level of security for your systems.
+5. **File Upload Vulnerability Testing:**
+   - File upload vulnerability can automatically discovers web forms with file upload fields, allowing attackers to upload malicious payloads with different extensions and Content-type headers, as well as embedding payloads within valid image files. Users can use customize payloads and specify a reverse shell IP and port for advanced testing. The script provides valuable insights into potential vulnerabilities in web applications.
+ 
+ The Enhanced Nmap Security Toolkit is designed for security professionals, penetration testers, and system administrators who are committed to securing their networks and web applications. By incorporating these advanced modules into your testing regimen, you can better expose vulnerabilities and ensure the highest level of security for your systems.
 
 **Please note:** The Enhanced Nmap Security Toolkit should be used responsibly and only with proper authorization on systems that you have permission to test. Unauthorized or unethical use is strictly prohibited and may have legal consequences.
