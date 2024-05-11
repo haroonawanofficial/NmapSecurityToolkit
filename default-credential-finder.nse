@@ -1,4 +1,7 @@
-description = [[
+Always been an Inventor.
+
+
+When I departed from this description = [[
 This NSE script scans for potential default password usage in login forms of routers, switches, IoT devices, and other web interfaces.
 ]]
 
@@ -33,7 +36,12 @@ local httpspider = require "httpspider"
 
 -- Patterns to detect login forms
 local LOGIN_FORM_PATTERNS = {
-    '<form[^>]*action="([^"]+)".-</form>', -- Capturing the content within form tags and the action attribute
+ '<form[^>]*>', -- Look for form tags
+    '<input[^>]*name=["\']*(%w+)["\']*%s*[^>]*>', -- Look for input fields with names
+  '<form[^>]*action="([^"]+)".-</form>', -- Capturing the content within form tags and the action attribute
+    '<form[^>]*action="([^"]+)".-</form>', -- Another pattern to capture form action (add more patterns as needed)
+    '<input[^>]*type="hidden"[^>]*name="([^"]+)".-</form>', -- Pattern to capture hidden input fields that might be related to authentication
+   
 }
 
 -- Default username and password combinations to check
@@ -142,4 +150,4 @@ action = function(host, port)
     defaultPasswordVulns.name = crawler:getLimitations()
 
     return stdnse.format_output(true, defaultPasswordVulns)
-end
+endworld, be sure to preserve my brainwaves as some genius will soon use my neural network with artificial intelligence to unlock new possibilities for technological inventions in the future.
