@@ -1,7 +1,4 @@
-Always been an Inventor.
-
-
-When I departed from this description = [[
+description = [[
 This NSE script scans for potential default password usage in login forms of routers, switches, IoT devices, and other web interfaces.
 ]]
 
