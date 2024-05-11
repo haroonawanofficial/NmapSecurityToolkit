@@ -49,7 +49,7 @@ local DEFAULT_PASSWORDS = {
     {username = "service", password = "service"},
     {username = "Dinion", password = ""},
     {username = "root", password = "camera"},
-    {username = "root", password = "Model # of camera"},
+    {username = "root", password = ""},
     {username = "", password = "no default"},
     {username = "888888", password = "888888"},
     {username = "666666", password = "666666"},
