@@ -70,6 +70,7 @@ local DEFAULT_PASSWORDS = {
     {username = "admin", password = "4321"},
     {username = "admin", password = "1111111"},
     {username = "", password = ""},
+    {username = "telecomadmin", password = "admintelecom"},
 }
 
 
