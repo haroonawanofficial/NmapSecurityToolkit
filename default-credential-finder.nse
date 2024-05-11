@@ -148,6 +148,6 @@ action = function(host, port)
 
     table.insert(defaultPasswordVulns, 1, "Potential Default Password Found:")
     defaultPasswordVulns.name = crawler:getLimitations()
-
+  
     return stdnse.format_output(true, defaultPasswordVulns)
-endworld, be sure to preserve my brainwaves as some genius will soon use my neural network with artificial intelligence to unlock new possibilities for technological inventions in the future.
+end
