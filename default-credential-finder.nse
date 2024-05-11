@@ -38,10 +38,40 @@ local LOGIN_FORM_PATTERNS = {
 
 -- Default username and password combinations to check
 local DEFAULT_PASSWORDS = {
+    {username = "admin", password = "12345"},
+    {username = "Admin", password = "123456"},
     {username = "admin", password = "admin"},
+    {username = "admin", password = "9999"},
+    {username = "admin", password = "1234"},
+    {username = "Administrator", password = ""},
+    {username = "root", password = "pass"},
+    {username = "root", password = ""},
+    {username = "service", password = "service"},
+    {username = "Dinion", password = ""},
+    {username = "root", password = "camera"},
+    {username = "root", password = "Model # of camera"},
+    {username = "", password = "no default"},
+    {username = "888888", password = "888888"},
+    {username = "666666", password = "666666"},
+    {username = "admin", password = "fliradmin"},
+    {username = "", password = ""},
+    {username = "Admin", password = "1234"},
+    {username = "root", password = "admin"},
+    {username = "888888", password = "888888"},
+    {username = "admin", password = "12345"},
+    {username = "admin", password = "1234"},
+    {username = "administrator", password = "1234"},
+    {username = "admin", password = "1111"},
+    {username = "admin", password = "Model # of Camera"},
+    {username = "admin", password = "meinsm"},
     {username = "root", password = "root"},
-    -- Add more default combinations here
+    {username = "root", password = "admin"},
+    {username = "root", password = "4321"},
+    {username = "admin", password = "4321"},
+    {username = "admin", password = "1111111"},
+    {username = "", password = ""},
 }
+
 
 portrule = shortport.port_or_service( {80, 443}, {"http", "https"}, "tcp", "open")
 
